@@ -3,7 +3,7 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp Student.cpp Student.h leetcode/217Solution.cpp)
+add_executable(untitled main.cpp Student.cpp Student.h leetcode/217.cpp leetcode/53.cpp leetcode/1.cpp leetcode/88.cpp leetcode/350.cpp leetcode/121.cpp leetcode/566.cpp leetcode/118.cpp leetcode/36.cpp)
 
 MESSAGE("CMAKE_CXX_FLAGS IS ${CMAKE_CXX_FLAGS}")
 MESSAGE("CMAKE_CXX_FLAGS END")
