@@ -6,17 +6,57 @@ CMakeFiles/untitled.dir/Student.cpp.o: ../Student.h
 
 CMakeFiles/untitled.dir/leetcode/1.cpp.o: ../leetcode/1.cpp
 
+CMakeFiles/untitled.dir/leetcode/101.cpp.o: ../leetcode/101.cpp
+
+CMakeFiles/untitled.dir/leetcode/102.cpp.o: ../leetcode/102.cpp
+
+CMakeFiles/untitled.dir/leetcode/104.cpp.o: ../leetcode/104.cpp
+
+CMakeFiles/untitled.dir/leetcode/112.cpp.o: ../leetcode/112.cpp
+
 CMakeFiles/untitled.dir/leetcode/118.cpp.o: ../leetcode/118.cpp
 
 CMakeFiles/untitled.dir/leetcode/121.cpp.o: ../leetcode/121.cpp
 
+CMakeFiles/untitled.dir/leetcode/141.cpp.o: ../leetcode/141.cpp
+
+CMakeFiles/untitled.dir/leetcode/144.cpp.o: ../leetcode/144.cpp
+
+CMakeFiles/untitled.dir/leetcode/20.cpp.o: ../leetcode/20.cpp
+
+CMakeFiles/untitled.dir/leetcode/203.cpp.o: ../leetcode/203.cpp
+
+CMakeFiles/untitled.dir/leetcode/206.cpp.o: ../leetcode/206.cpp
+
+CMakeFiles/untitled.dir/leetcode/21.cpp.o: ../leetcode/21.cpp
+
 CMakeFiles/untitled.dir/leetcode/217.cpp.o: ../leetcode/217.cpp
 
+CMakeFiles/untitled.dir/leetcode/226.cpp.o: ../leetcode/226.cpp
+
+CMakeFiles/untitled.dir/leetcode/232.cpp.o: ../leetcode/232.cpp
+
+CMakeFiles/untitled.dir/leetcode/242.cpp.o: ../leetcode/242.cpp
+
 CMakeFiles/untitled.dir/leetcode/350.cpp.o: ../leetcode/350.cpp
+
+CMakeFiles/untitled.dir/leetcode/36.cpp.o: ../leetcode/36.cpp
+
+CMakeFiles/untitled.dir/leetcode/383.cpp.o: ../leetcode/383.cpp
+
+CMakeFiles/untitled.dir/leetcode/387.cpp.o: ../leetcode/387.cpp
 
 CMakeFiles/untitled.dir/leetcode/53.cpp.o: ../leetcode/53.cpp
 
 CMakeFiles/untitled.dir/leetcode/566.cpp.o: ../leetcode/566.cpp
+
+CMakeFiles/untitled.dir/leetcode/700.cpp.o: ../leetcode/700.cpp
+
+CMakeFiles/untitled.dir/leetcode/701.cpp.o: ../leetcode/701.cpp
+
+CMakeFiles/untitled.dir/leetcode/73.cpp.o: ../leetcode/73.cpp
+
+CMakeFiles/untitled.dir/leetcode/83.cpp.o: ../leetcode/83.cpp
 
 CMakeFiles/untitled.dir/leetcode/88.cpp.o: ../leetcode/88.cpp
 
