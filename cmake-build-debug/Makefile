@@ -790,6 +790,33 @@ leetcode/566.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/566.cpp.s
 .PHONY : leetcode/566.cpp.s
 
+leetcode/653.o: leetcode/653.cpp.o
+
+.PHONY : leetcode/653.o
+
+# target to build an object file
+leetcode/653.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/653.cpp.o
+.PHONY : leetcode/653.cpp.o
+
+leetcode/653.i: leetcode/653.cpp.i
+
+.PHONY : leetcode/653.i
+
+# target to preprocess a source file
+leetcode/653.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/653.cpp.i
+.PHONY : leetcode/653.cpp.i
+
+leetcode/653.s: leetcode/653.cpp.s
+
+.PHONY : leetcode/653.s
+
+# target to generate assembly for a file
+leetcode/653.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/653.cpp.s
+.PHONY : leetcode/653.cpp.s
+
 leetcode/700.o: leetcode/700.cpp.o
 
 .PHONY : leetcode/700.o
@@ -925,6 +952,60 @@ leetcode/88.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/88.cpp.s
 .PHONY : leetcode/88.cpp.s
 
+leetcode/98.o: leetcode/98.cpp.o
+
+.PHONY : leetcode/98.o
+
+# target to build an object file
+leetcode/98.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/98.cpp.o
+.PHONY : leetcode/98.cpp.o
+
+leetcode/98.i: leetcode/98.cpp.i
+
+.PHONY : leetcode/98.i
+
+# target to preprocess a source file
+leetcode/98.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/98.cpp.i
+.PHONY : leetcode/98.cpp.i
+
+leetcode/98.s: leetcode/98.cpp.s
+
+.PHONY : leetcode/98.s
+
+# target to generate assembly for a file
+leetcode/98.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/98.cpp.s
+.PHONY : leetcode/98.cpp.s
+
+leetcode/avl_tree.o: leetcode/avl_tree.cpp.o
+
+.PHONY : leetcode/avl_tree.o
+
+# target to build an object file
+leetcode/avl_tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/avl_tree.cpp.o
+.PHONY : leetcode/avl_tree.cpp.o
+
+leetcode/avl_tree.i: leetcode/avl_tree.cpp.i
+
+.PHONY : leetcode/avl_tree.i
+
+# target to preprocess a source file
+leetcode/avl_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/avl_tree.cpp.i
+.PHONY : leetcode/avl_tree.cpp.i
+
+leetcode/avl_tree.s: leetcode/avl_tree.cpp.s
+
+.PHONY : leetcode/avl_tree.s
+
+# target to generate assembly for a file
+leetcode/avl_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/leetcode/avl_tree.cpp.s
+.PHONY : leetcode/avl_tree.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -1033,6 +1114,9 @@ help:
 	@echo "... leetcode/566.o"
 	@echo "... leetcode/566.i"
 	@echo "... leetcode/566.s"
+	@echo "... leetcode/653.o"
+	@echo "... leetcode/653.i"
+	@echo "... leetcode/653.s"
 	@echo "... leetcode/700.o"
 	@echo "... leetcode/700.i"
 	@echo "... leetcode/700.s"
@@ -1048,6 +1132,12 @@ help:
 	@echo "... leetcode/88.o"
 	@echo "... leetcode/88.i"
 	@echo "... leetcode/88.s"
+	@echo "... leetcode/98.o"
+	@echo "... leetcode/98.i"
+	@echo "... leetcode/98.s"
+	@echo "... leetcode/avl_tree.o"
+	@echo "... leetcode/avl_tree.i"
+	@echo "... leetcode/avl_tree.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
