@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 file(GLOB SRC_LIST "${CMAKE_SOURCE_DIR}/leetcode/*.cpp")
 #message("SRC_LIST is : ${SRC_LIST} : ")
-add_executable(untitled main.cpp Student.cpp Student.h ${SRC_LIST} main_queue.cpp )
+add_executable(untitled main.cpp leetcode/63.cpp leetcode/64.cpp leetcode/221.cpp leetcode/5.cpp leetcode/516.cpp leetcode/300.cpp leetcode/376.cpp leetcode/392.cpp leetcode/1143.cpp leetcode/72.cpp leetcode/322.cpp)
 #add_executable(untitled main.cpp Student.cpp Student.h
 #        leetcode/217.cpp leetcode/53.cpp leetcode/1.cpp leetcode/88.cpp leetcode/350.cpp leetcode/121.cpp
 #        leetcode/566.cpp leetcode/118.cpp leetcode/36.cpp leetcode/73.cpp leetcode/387.cpp leetcode/383.cpp
