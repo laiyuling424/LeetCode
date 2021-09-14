@@ -4,6 +4,7 @@
 
 
 #include <stack>
+#include <iostream>
 
 using namespace std;
 
@@ -29,6 +30,23 @@ using namespace std;
 
 
 class MyQueue {
+private:
+    void move_stack() {
+        int size = stack_1.size();
+        for (int i = 0; i < size; i++) {
+            stack_2.push(stack_1.top());
+            stack_1.pop();
+        }
+    }
+
+    void insert_stack() {
+        int size = stack_2.size();
+        for (int i = 0; i < size; i++) {
+            stack_1.push(stack_2.top());
+            stack_2.pop();
+        }
+    }
+
 public:
     /** Initialize your data structure here. */
     int size;
@@ -36,27 +54,42 @@ public:
     stack<int> stack_2;
 
     MyQueue() {
-
+        size = 0;
     }
 
     /** Push element x to the back of queue. */
     void push(int x) {
-
+        if (stack_2.empty()) {
+            stack_1.push(x);
+        } else {
+            insert_stack();
+            stack_1.push(x);
+        }
+        size++;
     }
 
     /** Removes the element from in front of queue and returns that element. */
     int pop() {
-
+        if (stack_2.empty()) {
+            move_stack();
+        }
+        int top = stack_2.top();
+        stack_2.pop();
+        size--;
+        return top;
     }
 
     /** Get the front element. */
     int peek() {
-
+        if (stack_2.empty()) {
+            move_stack();
+        }
+        return stack_2.top();
     }
 
     /** Returns whether the queue is empty. */
     bool empty() {
-
+        return size == 0;
     }
 };
 
@@ -68,3 +101,20 @@ public:
  * int param_3 = obj->peek();
  * bool param_4 = obj->empty();
  */
+
+//int main() {
+//    MyQueue *myQueue = new MyQueue;
+//    myQueue->push(1);
+//    myQueue->push(2);
+//    cout << myQueue->pop() << endl;
+//    myQueue->push(3);
+//    myQueue->push(4);
+//    cout << myQueue->pop() << endl;
+//    cout << myQueue->peek() << endl;
+////    myQueue->push(5);
+////    cout << myQueue->pop() << endl;
+////    cout << myQueue->pop() << endl;
+////    cout << myQueue->pop() << endl;
+////    cout << myQueue->pop() << endl;
+//    return 0;
+//}

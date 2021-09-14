@@ -40,24 +40,24 @@ public:
     }
 };
 
-int main() {
-
-//    set<int> _set;
-//    _set.insert(1);
-//    _set.insert(2);
-//    _set.insert(3);
-//    _set.insert(4);
-//    _set.insert(5);
+//int main() {
 //
-//    cout << *_set.find(90) << endl;
-    Solution *solution = new Solution();
-    TreeNode *node7 = new TreeNode(7);
-    TreeNode *node5 = new TreeNode(4);
-    TreeNode *node4 = new TreeNode(2);
-    TreeNode *node3 = new TreeNode(6, NULL, node7);
-    TreeNode *node2 = new TreeNode(3, node4, node5);
-    TreeNode *node1 = new TreeNode(5, node2, node3);
-    cout << solution->findTarget(node1, 28) << endl;
-
-    return 0;
-}
+////    set<int> _set;
+////    _set.insert(1);
+////    _set.insert(2);
+////    _set.insert(3);
+////    _set.insert(4);
+////    _set.insert(5);
+////
+////    cout << *_set.find(90) << endl;
+//    Solution *solution = new Solution();
+//    TreeNode *node7 = new TreeNode(7);
+//    TreeNode *node5 = new TreeNode(4);
+//    TreeNode *node4 = new TreeNode(2);
+//    TreeNode *node3 = new TreeNode(6, NULL, node7);
+//    TreeNode *node2 = new TreeNode(3, node4, node5);
+//    TreeNode *node1 = new TreeNode(5, node2, node3);
+//    cout << solution->findTarget(node1, 28) << endl;
+//
+//    return 0;
+//}

@@ -3,6 +3,7 @@
 //
 
 #include <vector>
+#include <list>
 #include <iostream>
 
 using namespace std;
@@ -16,7 +17,35 @@ using namespace std;
 class Solution {
 public:
     int firstUniqChar(string s) {
-
+        pair<int, int> data[26];
+        for (int i = 0; i < 26; i++) {
+            data[i] = pair<int, int>(-1, 0);
+        }
+        for (int i = 0; i < s.size(); i++) {
+            int index = s.at(i) - 'a';
+            if (data[index].first == -1) {
+                data[index] = pair<int, int>(i, 1);
+            } else if (data[index].first < i) {
+                data[index].second++;
+            }
+        }
+        int first = INT_MAX;
+        for (pair<int, int> item:data) {
+            if (item.second != 1) {
+                continue;
+            }
+            first = min(first, item.first);
+        }
+        if (first == INT_MAX) {
+            return -1;
+        }
+        return first;
     }
 };
+
+//int main() {
+//    Solution *solution = new Solution();
+//    cout << solution->firstUniqChar("aabb") << endl;
+//    return 0;
+//}
 

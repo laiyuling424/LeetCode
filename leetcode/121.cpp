@@ -37,26 +37,41 @@ public:
         return max;
     }
 };
-//class Solution {
-//public:
-//    int maxProfit(vector<int>& prices) {
-//        int inf = 1e9;
-//        int minprice = inf, maxprofit = 0;
+
+
+//动态规划
+class Solution2 {
+public:
+    int maxProfit(vector<int> &prices) {
+//        int minprice = INT_MAX, maxprofit = INT_MIN;
 //        for (int price: prices) {
 //            maxprofit = max(maxprofit, price - minprice);
 //            minprice = min(price, minprice);
 //        }
 //        cout << maxprofit << endl;
 //        return maxprofit;
-//    }
-//};
+
+        int n = prices.size();
+        vector<int> min_prices(n, 0);
+        min_prices[0] = prices[0];
+        int maxprofit = INT_MIN;
+        for (int i = 1; i < n; ++i) {
+            min_prices[i] = min(min_prices[i - 1], prices[i - 1]);
+            maxprofit = max(maxprofit, prices[i] - min_prices[i]);
+        }
+        if (maxprofit < 0) {
+            maxprofit = 0;
+        }
+        return maxprofit;
+    }
+};
 
 //int main() {
 //
-//    Solution *solution = new Solution();
-//    vector<int> vec = {2, 5, 1, 3};
-//
-//    solution->maxProfit(vec);
+//    Solution2 *solution = new Solution2();
+////    vector<int> vec = {2, 5, 1, 3};
+//    vector<int> vec = {7, 6, 4, 3, 1};
+//    cout << solution->maxProfit(vec) << endl;
 //
 //    return 0;
 //}
